@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		BF02FD062B90282700374208 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FD052B90282700374208 /* CalculatorApp.swift */; };
-		BF02FD082B90282700374208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FD072B90282700374208 /* ContentView.swift */; };
+		BF02FD082B90282700374208 /* MainCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FD072B90282700374208 /* MainCalculatorView.swift */; };
 		BF02FD0A2B90282900374208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02FD092B90282900374208 /* Assets.xcassets */; };
 		BF02FD0E2B90282900374208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02FD0D2B90282900374208 /* Preview Assets.xcassets */; };
+		BF02FD152B902ECE00374208 /* SunMoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FD142B902ECE00374208 /* SunMoonView.swift */; };
+		BF02FD172B902FEC00374208 /* ComputationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FD162B902FEC00374208 /* ComputationView.swift */; };
+		BF02FD192B90316300374208 /* CalcButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FD182B90316300374208 /* CalcButtonsView.swift */; };
+		BF02FD1B2B90380900374208 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FD1A2B90380900374208 /* Enumerations.swift */; };
+		BF02FD1D2B9039F200374208 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FD1C2B9039F200374208 /* ButtonView.swift */; };
+		BFA331A32B917B6F00DF133A /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA331A22B917B6F00DF133A /* StringHelper.swift */; };
+		BFA331A92B91957900DF133A /* iPadSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA331A82B91957900DF133A /* iPadSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF02FD022B90282700374208 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF02FD052B90282700374208 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
-		BF02FD072B90282700374208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF02FD072B90282700374208 /* MainCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalculatorView.swift; sourceTree = "<group>"; };
 		BF02FD092B90282900374208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF02FD0B2B90282900374208 /* Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Calculator.entitlements; sourceTree = "<group>"; };
 		BF02FD0D2B90282900374208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF02FD142B902ECE00374208 /* SunMoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonView.swift; sourceTree = "<group>"; };
+		BF02FD162B902FEC00374208 /* ComputationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputationView.swift; sourceTree = "<group>"; };
+		BF02FD182B90316300374208 /* CalcButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButtonsView.swift; sourceTree = "<group>"; };
+		BF02FD1A2B90380900374208 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		BF02FD1C2B9039F200374208 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		BFA331A22B917B6F00DF133A /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		BFA331A82B91957900DF133A /* iPadSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadSupport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				BF02FD052B90282700374208 /* CalculatorApp.swift */,
-				BF02FD072B90282700374208 /* ContentView.swift */,
+				BFA331A42B9194B300DF133A /* Views */,
+				BFA331A52B9194DE00DF133A /* Constants */,
+				BFA331A62B9194F500DF133A /* Helpers */,
+				BFA331A72B91953B00DF133A /* Extensions */,
 				BF02FD092B90282900374208 /* Assets.xcassets */,
 				BF02FD0B2B90282900374208 /* Calculator.entitlements */,
 				BF02FD0C2B90282900374208 /* Preview Content */,
@@ -67,6 +84,42 @@
 				BF02FD0D2B90282900374208 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA331A42B9194B300DF133A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF02FD072B90282700374208 /* MainCalculatorView.swift */,
+				BF02FD142B902ECE00374208 /* SunMoonView.swift */,
+				BF02FD162B902FEC00374208 /* ComputationView.swift */,
+				BF02FD182B90316300374208 /* CalcButtonsView.swift */,
+				BF02FD1C2B9039F200374208 /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFA331A52B9194DE00DF133A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BF02FD1A2B90380900374208 /* Enumerations.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BFA331A62B9194F500DF133A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BFA331A22B917B6F00DF133A /* StringHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BFA331A72B91953B00DF133A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFA331A82B91957900DF133A /* iPadSupport.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF02FD082B90282700374208 /* ContentView.swift in Sources */,
+				BFA331A92B91957900DF133A /* iPadSupport.swift in Sources */,
+				BF02FD082B90282700374208 /* MainCalculatorView.swift in Sources */,
+				BF02FD192B90316300374208 /* CalcButtonsView.swift in Sources */,
+				BF02FD152B902ECE00374208 /* SunMoonView.swift in Sources */,
+				BF02FD172B902FEC00374208 /* ComputationView.swift in Sources */,
+				BFA331A32B917B6F00DF133A /* StringHelper.swift in Sources */,
 				BF02FD062B90282700374208 /* CalculatorApp.swift in Sources */,
+				BF02FD1B2B90380900374208 /* Enumerations.swift in Sources */,
+				BF02FD1D2B9039F200374208 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +342,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -320,8 +379,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
